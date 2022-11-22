@@ -3,7 +3,7 @@ import { useRef } from "react";
 
 const NewTodo: React.FC<{
   onAddTodo: (text: string) => void;
-}> = (props) => {
+}>  = (props) => {
   const todoTextInputRef = useRef<HTMLInputElement>(null);
 
   const submitHandler = (event: React.FormEvent) => {
